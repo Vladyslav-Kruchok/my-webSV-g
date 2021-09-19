@@ -1,0 +1,57 @@
+body {
+    background-color: #F5F7FA;
+    font-family: 'Montserrat', sans-serif;
+}
+.main-section {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    background-color: #ffffff;
+    margin: 40px auto; 
+}
+
+/* Content */
+.content {
+    padding: 100px 90px;  
+}
+
+/* About person */
+.about-person {
+    margin: 0 0 40px 0;
+}
+
+/* Projects */
+.projects-of-person {
+
+}
+
+/* Work experience/Educations */
+.work-experience {
+
+}
+
+/* Educations */
+.edu {
+
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #1E2939;
+    width: 370px;
+    padding: 40px 0;
+}
+
+/* Contacts */
+.contacts {
+    
+}
+
+/* Tech/Soft skills */
+.tech-skills{
+
+}
+.soft-skills{
+    
+}
+
