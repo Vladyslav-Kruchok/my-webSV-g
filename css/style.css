@@ -13,26 +13,128 @@ body {
 /* Content */
 .content {
     padding: 100px 90px;  
+    }
+.content-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin: 0 0 10px 0; 
 }
 
 /* About person */
 .about-person {
-    margin: 0 0 40px 0;
+margin: 0 0 40px 0;
+}
+.about-person-job-objective {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin: 0 0 20px 0;   
+}
+.about-person-fullname {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000000;
+    margin: 0 0 25px 0;   
+}
+.about-person-description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    width: 400px;
 }
 
 /* Projects */
 .projects-of-person {
 
 }
+.projects-of-person-list {
+    padding: 0 0 0 17px;
+}
+.projects-of-person-item {
+    font-weight: bold;
+    color: #000000;
+}
+.projects-of-person-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.projects-of-person-bracket {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
 
 /* Work experience/Educations */
 .work-experience {
 
 }
+.work-experience-comp {
+
+}
+.work-experience-pos {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin: 0 0 10px 0;
+}
+.work-experience-establ,
+.edu-establ {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+    margin: 0 0 10px 0;
+}
+.work-experience-period,
+.edu-establ-period {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+}
+.work-experience-divide,
+.edu-establ-divide {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
 
 /* Educations */
 .edu {
 
+}
+.edu-establ-qualification {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+
+}
+li {
+    color: #595959;
+    font-size: 14px;
+    line-height: 24px;    
 }
 
 /* Sidebar */
@@ -41,17 +143,51 @@ body {
     width: 370px;
     padding: 40px 0;
 }
-
+.sidebar-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.contacts,
+.tech-skills,
+.soft-skills {
+    margin: 50px 0 0 40px;
+}
 /* Contacts */
-.contacts {
-    
+.contacts-type {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-right: 5px;
+}
+.contacts-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #727983;
 }
 
 /* Tech/Soft skills */
-.tech-skills{
-
-}
-.soft-skills{
-    
+.tech-skills-list,
+.soft-skills-list {
+    padding: 0 0 0 17px;
 }
 
+.tech-skills-item,
+.soft-skills-item {
+    color: #FB6D3A;
+}
+
+.tech-skills-item-text,
+.soft-skills-item-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
